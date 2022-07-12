@@ -4,8 +4,8 @@
   "description": "Randomly generates math worksheets",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build --dist-dir ./build",
+    "start": "parcel --dist-dir ./start",
+    "build": "parcel build",
     "test": "jest"
   },
   "author": "Victor Velediaz",
