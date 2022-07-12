@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1646881160864" clover="3.2.0">
+  <project timestamp="1646881160864" name="All files">
+    <metrics statements="45" coveredstatements="18" conditionals="37" coveredconditionals="11" methods="5" coveredmethods="2" elements="87" coveredelements="31" complexity="0" loc="45" ncloc="45" packages="1" files="1" classes="1"/>
+    <file name="MathProblems.js" path="/Users/victorvelediaz/Documents/Projects/ParcelApps/math-worksheet-generator/src/components/MathProblems.js">
+      <metrics statements="45" coveredstatements="18" conditionals="37" coveredconditionals="11" methods="5" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="12" count="2228" type="stmt"/>
+      <line num="16" count="0" type="stmt"/>
+      <line num="17" count="0" type="stmt"/>
+      <line num="18" count="0" type="stmt"/>
+      <line num="19" count="0" type="stmt"/>
+      <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="23" count="0" type="stmt"/>
+      <line num="26" count="0" type="cond" truecount="0" falsecount="3"/>
+      <line num="27" count="0" type="stmt"/>
+      <line num="28" count="0" type="stmt"/>
+      <line num="29" count="0" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
+      <line num="36" count="50" type="stmt"/>
+      <line num="37" count="750" type="stmt"/>
+      <line num="38" count="750" type="cond" truecount="2" falsecount="0"/>
+      <line num="39" count="743" type="stmt"/>
+      <line num="40" count="743" type="cond" truecount="2" falsecount="0"/>
+      <line num="41" count="735" type="stmt"/>
+      <line num="44" count="735" type="cond" truecount="2" falsecount="0"/>
+      <line num="45" count="666" type="stmt"/>
+      <line num="47" count="69" type="cond" truecount="2" falsecount="0"/>
+      <line num="48" count="19" type="stmt"/>
+      <line num="50" count="50" type="cond" truecount="2" falsecount="0"/>
+      <line num="51" count="50" type="cond" truecount="1" falsecount="1"/>
+      <line num="52" count="50" type="stmt"/>
+      <line num="54" count="50" type="stmt"/>
+      <line num="63" count="0" type="stmt"/>
+      <line num="64" count="0" type="stmt"/>
+      <line num="65" count="0" type="stmt"/>
+      <line num="66" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="67" count="0" type="stmt"/>
+      <line num="68" count="0" type="stmt"/>
+      <line num="69" count="0" type="stmt"/>
+      <line num="70" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="71" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="73" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="74" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="75" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="77" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="78" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="79" count="0" type="stmt"/>
+      <line num="81" count="0" type="stmt"/>
+      <line num="96" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

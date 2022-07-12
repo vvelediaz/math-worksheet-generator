@@ -1,0 +1,108 @@
+.nav-tabs{
+    padding-top: 10px;
+}
+
+.main-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 0.8fr 0.3fr;
+    grid-auto-rows: 1fr 0.2fr;
+    grid-template-areas:
+      "advert1 forms frame advert2"
+      "advert3 advert3 advert4 advert4";
+    grid-gap: 10px;
+}
+
+.form-container{
+    height: 100%;
+    width: 100%;
+    justify-self: start;
+    grid-area: forms;
+}
+
+.pdf-frame-container{
+    grid-area: frame;
+}
+
+#pdf-frame{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    height: 600px;
+    width: 100%;
+}
+
+#preview-btn, #download-btn{
+    margin-top: 10px;
+}
+#download-btn {
+    margin-left: 10px;
+}
+
+.answer-sheet-form-container{
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.answer-sheet-label{
+    padding-right: 10px;
+}
+
+.form-row {
+    padding: 3px;
+    display: flex;
+}
+
+.form-row input{
+    padding-left: 10px;
+}
+
+.form-row .left-label{
+    display: contents;
+}
+
+.form-row .right-label{
+    text-align: center;
+}
+
+.advert1{
+    grid-area: advert1;
+}
+
+.advert2{
+    grid-area: advert2;
+}
+
+.advert3{
+    grid-area: advert3;
+}
+
+.advert4{
+    grid-area: advert4;
+}
+
+@media (max-width: 1200px) {
+    .full-page {
+        font-size: small;
+    }
+}
+
+@media (max-width: 992px) {
+    .full-page{
+        font-size: small;
+    }
+    .main-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 1fr 0.2fr;
+        grid-template-areas:
+        "forms"
+        "advert1";
+        grid-gap: 10px;
+    }
+    .pdf-frame-container{
+        display: none;
+    }
+    .advert2{display: none}
+    .advert3{display: none}
+    .advert4{display: none}
+}
